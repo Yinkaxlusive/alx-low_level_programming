@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
 *main - A program that prints the size of various computer types
-*Return: always 0 (Success)
+*
+*Return: 0 (Success)
 */
 int main(void)
 {
@@ -12,3 +13,4 @@ int main(void)
 	printf("Size of a float: %lu byte(s)\n", sizeof(float));
 	return (0);
 }
+
