@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+
 /**
  * main - prints all possible combinations of two two-digit
  *
@@ -27,8 +28,8 @@ int main(void)
 			putchar(',');
 			putchar(' ');
 		}
-	}
-	putchar('\n');
+		putchar('\n');
 
-	return (0);
+	}
+	return (0);
 }
