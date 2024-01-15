@@ -3,8 +3,9 @@
 #include <stdlib.h>
 #include <ctype.h>
 #include <string.h>
-int _atoi(char *s)
 
+void _puts(char *s)
 {
-	return atoi(s);
+	puts(s);
 }
+
